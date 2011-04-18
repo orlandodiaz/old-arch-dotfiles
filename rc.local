@@ -1,6 +1,1 @@
-#!/bin/bash
-#
-# /etc/rc.local: Local multi-user startup script.
-#
-for tty in /dev/tty?; do /usr/bin/setleds -D +num < "$tty"; done
-
+/etc/rc.local
