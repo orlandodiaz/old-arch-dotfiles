@@ -7,4 +7,5 @@
 # enable restart X
 setxkbmap -option terminate:ctrl_alt_bksp 
 
+numlockx&
 exec fluxbox
